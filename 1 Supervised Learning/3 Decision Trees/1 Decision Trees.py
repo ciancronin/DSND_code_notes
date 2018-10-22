@@ -11,7 +11,7 @@ import pandas as pd
 import numpy as np
 
 # Read the data.
-data = pd.read_csv('C:\\Users\\cicro\\Dropbox\\03 Study\\1 Data Science Nanodegree\\3 Decision Trees\\data.csv')
+data = pd.read_csv('C:\\Users\\cicro\\Documents\\GitHub\\datasciencenanodegree\\1 Supervised Learning\\3 Decision Trees\\data.csv')
 # Assign the features to the variable X, and the labels to the variable y. 
 X = data.iloc[:,:-1]
 y = data.iloc[:,-1]
@@ -27,3 +27,4 @@ y_pred = model.predict(X)
 
 # TODO: Calculate the accuracy and assign it to the variable acc.
 acc = accuracy_score(y, y_pred)
+print(acc)

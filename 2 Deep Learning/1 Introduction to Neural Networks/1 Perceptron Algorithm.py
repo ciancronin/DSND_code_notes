@@ -54,8 +54,7 @@ def trainPerceptronAlgorithm(X, y, learn_rate = 0.01, num_epochs = 25):
     return boundary_lines
 
 if __name__ == '__main__':
-    data = pd.read_csv('/Users/croninc/Dropbox/03 Study/1 Data Science Nanodegree'
-        + '/2 Deep Learning/1 Introduction to Neural Networks/data_percept.csv',
+    data = pd.read_csv('C:\\Users\\cicro\\Documents\\GitHub\\datasciencenanodegree\\2 Deep Learning\\1 Introduction to Neural Networks\\data_percept.csv',
         header = None)
     X = data.iloc[:,:-1]
     y = data.iloc[:,-1]

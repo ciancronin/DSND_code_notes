@@ -8,7 +8,7 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import Lasso
 
-train_data = pd.read_csv("/Users/croninc/Dropbox/03 Study/1 Data Science Nanodegree/1 Regression/data_fs.csv")
+train_data = pd.read_csv("C:\\Users\\cicro\\Documents\\GitHub\\datasciencenanodegree\\1 Supervised Learning\\1 Regression\\data_fs.csv")
 X = train_data.iloc[:,:-1]
 y = train_data.iloc[:,-1]
 

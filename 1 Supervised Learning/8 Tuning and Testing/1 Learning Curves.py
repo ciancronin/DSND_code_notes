@@ -6,7 +6,7 @@
 
 # Import, read, and split data
 import pandas as pd
-data = pd.read_csv('/Users/croninc/Dropbox/03 Study/1 Data Science Nanodegree/8 Testing and Tuning/data.csv')
+data = pd.read_csv('C:\\Users\\cicro\\Documents\\GitHub\\datasciencenanodegree\\1 Supervised Learning\\8 Tuning and Testing\\data.csv')
 import numpy as np
 X = np.array(data[['x1', 'x2']])
 y = np.array(data['y'])
