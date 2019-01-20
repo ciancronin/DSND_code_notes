@@ -8,7 +8,7 @@ import pandas as pd
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score
 
-data = pd.read_csv('C:\\Users\\cicro\\Dropbox\\03 Study\\1 Data Science Nanodegree\\1 Supervised Learning\\5 Support Vector Machines\\data.csv')
+data = pd.read_csv('C:\\Users\\cicro\\Documents\\GitHub\\datasciencenanodegree\\1 Supervised Learning\\5 Support Vector Machines\\data_test.csv')
 X = data.iloc[:,:-1]
 y = data.iloc[:,-1]
 

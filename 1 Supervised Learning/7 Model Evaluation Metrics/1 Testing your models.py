@@ -15,7 +15,7 @@ import numpy as np
 from sklearn.cross_validation import train_test_split
 
 # Read in the data.
-data = np.asarray(pd.read_csv('C:\\Users\\cicro\\Dropbox\\03 Study\\1 Data Science Nanodegree\\1 Supervised Learning\\7 Model Evaluation Metrics\\data_test.csv', header=None))
+data = np.asarray(pd.read_csv('C:\\Users\\cicro\\Documents\\GitHub\\datasciencenanodegree\\1 Supervised Learning\\7 Model Evaluation Metrics\\data_test.csv', header=None))
 # Assign the features to the variable X, and the labels to the variable y. 
 X = data[:,0:2]
 y = data[:,2]

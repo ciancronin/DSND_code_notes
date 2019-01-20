@@ -21,3 +21,4 @@ sample_house = [[2.29690000e-01, 0.00000000e+00, 1.05900000e+01, 0.00000000e+00,
                 1.86000000e+01, 3.94870000e+02, 1.09700000e+01]]
 
 prediction = model.predict(sample_house)
+print(prediction)

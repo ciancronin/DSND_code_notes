@@ -10,7 +10,7 @@ from sklearn.linear_model import Lasso
 
 # Assign the data to predictor and outcome variables
 # TODO: Load the data
-train_data = pd.read_csv("/Users/croninc/Dropbox/03 Study/1 Data Science Nanodegree/1 Regression/data_reg.csv")
+train_data = pd.read_csv("C:\\Users\\cicro\\Documents\\GitHub\\datasciencenanodegree\\1 Supervised Learning\\1 Regression\\data_reg.csv")
 X = train_data.iloc[:,:-1]
 y = train_data.iloc[:,-1]
 
