@@ -19,7 +19,7 @@ def error_plot(model, figsize=(5, 5)):
   x_axis = range(0, epochs)
 
   # Plot log loss
-  fig, ax = plt.subplots(figsize=figsize)
+  _, ax = plt.subplots(figsize=figsize)
   ax.plot(x_axis, results['validation_0']['mae'], label='Train')
   ax.plot(x_axis, results['validation_1']['mae'], label='Test')
   ax.legend()
@@ -60,7 +60,7 @@ def find_best_xgb_model(X_train, y_train, X_valid, y_valid, parameters):
   model_result_df = pd.DataFrame(model_result).sort_values('valid')
 
   return grid_model_list[model_result_df.iloc[0].name]
-  
+
 
 if __name__ == '__main__':
   data = yf.download("GOOG AAPL", period='5y')

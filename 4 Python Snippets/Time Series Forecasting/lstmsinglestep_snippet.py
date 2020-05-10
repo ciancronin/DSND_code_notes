@@ -168,7 +168,7 @@ def plot_forecasts(series, forecasts, n_test):
   # show the plot
   pyplot.show()
 
-if __name__ = '__main__':
+if __name__ == '__main__':
   # load dataset (AAPL Adj Close Stock Price)
   data_lstm2 = yf.download("GOOG AAPL", period='3y')
   series = pd.DataFrame(data_lstm2['Adj Close']['AAPL'].values, columns=['amount'], index=data_lstm2['Adj Close']['AAPL'].index)
