@@ -77,7 +77,7 @@ def miniBatchGD(X, y, batch_size = 20, learn_rate = 0.005, num_iter = 25):
 
 if __name__ == "__main__":
     # perform gradient descent
-    data = np.genfromtxt('data.csv', delimiter=',')
+    data = np.genfromtxt('/home/cian/Documents/DSND_code_notes/1 Supervised Learning/1 Regression/data.csv', delimiter=',')
     X = data[:,:-1]
     y = data[:,-1]
     regression_coef = miniBatchGD(X, y)
